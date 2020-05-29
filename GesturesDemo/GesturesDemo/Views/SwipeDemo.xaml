@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Label Text="Swipe inside the box with a single finger."  x:Name="_labels"/>
-            <BoxView Color="Teal" WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <BoxView WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <BoxView.GestureRecognizers>
                     <!-- Can also set a swipe threshold on each gesture recognizer -->
                     <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
